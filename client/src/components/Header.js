@@ -40,21 +40,6 @@ const Header = (props) => {
                   Whiteboard
                 </NavLink>
               </Tab>
-              <Tab>
-                <NavLink className="padded" to="/quiz">
-                  Quiz
-                </NavLink>
-              </Tab>
-              <Tab>
-                <NavLink className="padded" to="/reflection-area-navigation">
-                  Reflection Area
-                </NavLink>
-              </Tab>
-              <Tab>
-                <NavLink className="padded" to="/documentation-navigation">
-                  Personal Documentation
-                </NavLink>
-              </Tab>
             </TabList>
           </Tabs>
         </nav>
